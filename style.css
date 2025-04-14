@@ -667,3 +667,13 @@ html{
     font-size: 1.2rem;
   }
 }
+
+@media (max-width: 475px){
+  .footer {
+    padding: 20px 0;
+  }
+
+  .footer .icons-footer i {
+    font-size: 1rem;
+  }
+}
