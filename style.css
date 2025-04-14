@@ -37,8 +37,8 @@ button {
   padding: 1rem;
 }
 
-body {
-  min-height: 2000px;
+html{
+  scroll-behavior: smooth;
 }
 
 /* =======================
@@ -351,8 +351,8 @@ body {
 }
 
 .testimonials .swiper-slide img {
-  width: 180px;
-  height: 180px;
+  width: 150px;
+  height: 150px;
   object-fit: cover;
   border-radius: 50%;
   margin-bottom: 15px;
@@ -367,9 +367,8 @@ body {
 
 .testimonials .swiper-slide .feedback {
   line-height: 1.6;
-  font-style: italic;
   color: var(--dark-color);
-  max-width: 600px;
+  max-width: 500px;
 }
 
 .testimonials .swiper-pagination-bullet {
@@ -656,8 +655,12 @@ body {
     max-width: 100%;
   }
 
+  .footer {
+    padding: 20px 10px;
+  }
+
   .footer .wrapper-footer p {
-    font-size: 12px;
+    font-size: 10px;
   }
 
   .footer .icons-footer i {
